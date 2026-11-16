@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "Чайный путь 2",
+    "slug": "chai-puti-2",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "newArchEnabled": false,
+    "splash": { "image": "./assets/icon.png", "resizeMode": "contain", "backgroundColor": "#6E0E0E" },
+    "android": {
+      "package": "ru.chayputi.timers",
+      "adaptiveIcon": { "foregroundImage": "./assets/icon.png", "backgroundColor": "#8E1616" },
+      "permissions": ["VIBRATE", "POST_NOTIFICATIONS"]
+    },
+    "plugins": [
+      ["expo-notifications", { "color": "#B3171B", "sounds": ["./assets/sounds/gong.wav", "./assets/sounds/bell.wav", "./assets/sounds/melody.wav", "./assets/sounds/beep.wav"] }]
+    ]
+  }
+}
